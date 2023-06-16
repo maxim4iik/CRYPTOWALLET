@@ -135,7 +135,7 @@ public class ChartFragment extends Fragment {
 
     private void fetchCryptoPriceHistory(String symbol, ChartTypes type) {
         CryptoCompareApi cryptoCompareApi = MyApplication.getCryptoCompareApi();
-        String apiKey = "314ec75597aca4f95c33ccdfc88d5a7493f0b97d89d1cc995745ca4e89f9a32f";
+        String apiKey = "";
         Call<JsonObject> call;
         switch (type) {
             case MINUTE:
