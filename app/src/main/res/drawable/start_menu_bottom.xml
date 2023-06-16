@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Orange bottom part -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#F37238" />
+        </shape>
+    </item>
+
+    <!-- White top part -->
+    <item android:top="20dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Curved edges -->
+    <item
+        android:top="-20dp"
+        android:right="-20dp"
+        android:left="-20dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#F37238" />
+            <corners android:topLeftRadius="20dp"
+                android:topRightRadius="20dp" />
+        </shape>
+    </item>
+</layer-list>

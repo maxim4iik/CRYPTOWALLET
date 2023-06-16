@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CryptoWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="currency_array">
+        <item>BTC</item>
+        <item>ETH</item>
+        <item>XRP</item>
+    </string-array>
+    <string-array name="time_array">
+        <item>Past hour</item>
+        <item>Past day</item>
+        <item>Past week</item>
+    </string-array>
+</resources>
